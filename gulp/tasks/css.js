@@ -15,7 +15,8 @@ gulp.task('sass', function () {
         'bower_components/bootstrap-material-design/dist/css/material.min.css',
         'bower_components/bootstrap-material-design/dist/css/ripples.min.css',
         'bower_components/bootstrap-material-design/dist/css/roboto.min.css',
-        'bower_components/animate.css/animate.min.css'
+        'bower_components/animate.css/animate.min.css',
+        'bower_components/Swiper/dist/css/swiper.min.css'
         ])
         .pipe(plumber())
         .pipe(sass())

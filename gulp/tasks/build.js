@@ -8,7 +8,7 @@ gulp.task('build', function () {
   runSequence(
       'clean', 
       'sass',
-      // 'copy:html',
+      'copy:videos',
       'ejs',
       'copy:fonts',
       'copy:material-fonts',

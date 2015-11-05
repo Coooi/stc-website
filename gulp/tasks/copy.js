@@ -11,6 +11,13 @@ gulp.task('copy:html', function () {
 
 });
 
+gulp.task('copy:videos', function () {
+
+  return gulp.src('./app/videos/*')
+        .pipe(gulp.dest('./public/assets/videos/'));
+
+});
+
 gulp.task('copy:fonts', function () {
 
   return gulp.src([
