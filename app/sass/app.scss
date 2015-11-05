@@ -1,0 +1,27 @@
+/*!
+ * STC - SCSS
+ */
+
+/* Variaveis */
+
+
+
+$brand-escuro: #5C5C54 !default;
+$brand-grama: #74BD5A !default;
+$brand-grama2: #6BB855 !default;
+$brand-musgo: #008753 !default;
+$brand-claro: #FFF !default;
+$brand-mar: #495F73 !default;
+
+
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700&subset=latin,latin-ext);
+
+
+.navbar--stc {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #003992!important;
+  opacity: 0.8;
+}
