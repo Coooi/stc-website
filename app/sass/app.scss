@@ -18,27 +18,6 @@ $brand-mar: #495F73 !default;
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700&subset=latin,latin-ext);
 
 
-.navbar--stc {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.3)!important;
-  z-index: 9999;
-}
-.dropdown-menu{
-  background: rgba(255, 255, 255, 0.3)!important;
-  li>a {
-    color: #FFF;
-    &:hover{
-      color: #000!important;
-      background: white!important;
-    }
-  }
-}
-.logo {
-  margin: -13px 0px;
-}
-
 .center-div {
     text-align: center;
     font-size: 18px;
@@ -58,8 +37,8 @@ $brand-mar: #495F73 !default;
     align-items: center;
 }
 
-#video-overlay {
-    background: rgba(0,0,0,.5);
+.video-overlay {
+    background-color: rgba(0,0,0,0);
     background-image: url(/assets/images/pattern.png);
     position: absolute;
     top: 0;
@@ -68,6 +47,9 @@ $brand-mar: #495F73 !default;
     left: 0;
     z-index: 2;
     opacity: .9;
+}
+.video-overlay--dark {
+  background-color: rgba(0,0,0,.5);
 }
 
 .home--video {
@@ -87,7 +69,12 @@ $brand-mar: #495F73 !default;
     z-index: 9;
     h1 {
       color: #FFFFFF;
-      font-size: 44px;
+      font-size: 60px;
+      font-weight: 500; 
+    }
+    h2 {
+      color: #FFFFFF;
+      font-size: 36px;
       font-weight: 500; 
     }
   }
@@ -104,15 +91,19 @@ $brand-mar: #495F73 !default;
       font-size: 36px;
       font-weight: 500;
       text-decoration: none;
-      padding: 10px;
+      padding: 10px 40px;
       border: 2px solid;
-      border-radius: 5px;
+      border-radius: 40px;
       z-index: 9;
       background: rgba(0, 57, 146, 0.5);
+            -webkit-transition: background-color .7s, -webkit-transform .7s;
+          transition: background-color .7s, transform .7s;
       &:hover{
         color: rgb(0,57,146);
         border-color: rgb(0,57,146);
         background: rgba(255, 255, 255, 0.5);
+              -webkit-transition: background-color .7s, -webkit-transform .7s;
+          transition: background-color .7s, transform .7s;
       }
     }
     i {
@@ -124,7 +115,7 @@ $brand-mar: #495F73 !default;
   background-image: url(/assets/images/office.jpg);
 }
 .img--servicos {
-  background-image: url(/assets/images/servicos.jpg);
+  background-image: url(/assets/images/buildings.jpg);
 }
 .img--clientes {
   background-image: url(/assets/images/clientes.jpg);

@@ -1,0 +1,26 @@
+#mainFooter{
+	padding-top: 20px;
+	.bigTitle {
+		color: #000!important;
+		text-decoration: none;
+	}
+}
+#footerRights {
+	padding-bottom: 40px;
+	.footer-email {
+		color: rgba(0, 57, 146, 1);
+		text-decoration: none;
+		border: 1px solid rgba(0, 57, 146, 1);
+		padding: 10px;
+		-webkit-transition: background-color .7s, -webkit-transform .7s;
+    	transition: background-color .7s, transform .7s;
+    	border-radius: 20px;
+		&:hover{
+			color: #FFF;
+			background-color: rgba(0, 57, 146, 0.6);
+			// border-color: #FFF;
+			-webkit-transition: background-color .7s, -webkit-transform .7s;
+    			transition: background-color .7s, transform .7s;
+		}
+	}
+}

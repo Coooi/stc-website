@@ -13,6 +13,10 @@ app.get('/', function (req, res) {
     res.render('index.html');
 });
 
+app.get('/empresa', function (req, res) {
+    res.render('empresa.html');
+});
+
 app.listen(app.get('port'), function() {
     console.log('STC server running at PORT', app.get('port'));
 });

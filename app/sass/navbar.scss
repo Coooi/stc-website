@@ -1,0 +1,20 @@
+.navbar--stc {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3)!important;
+  z-index: 9999;
+}
+.dropdown-menu{
+  background: rgba(255, 255, 255, 0.3)!important;
+  li>a {
+    color: #FFF;
+    &:hover{
+      color: #000!important;
+      background: white!important;
+    }
+  }
+}
+.logo {
+  margin: -13px 0px;
+}

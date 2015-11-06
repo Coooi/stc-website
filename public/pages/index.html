@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="springfield">
+<html lang="en">
 
 <head>
 
@@ -31,7 +31,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="javascript:void(0)"><img src="/assets/images/stc-logo.jpg" class="logo" alt="" width="56px" height="56px"></a>
+        <a class="navbar-brand" href="/"><img src="/assets/images/stc-logo.jpg" class="logo" alt="" width="56px" height="56px"></a>
     </div>
     <div class="navbar-collapse collapse navbar-inverse-collapse">
         <ul class="nav navbar-nav navbar-right">
@@ -39,7 +39,7 @@
             <li><a href="javascript:void(0)">A Empresa</a></li>
             <li class="dropdown">
                 <a href="bootstrap-elements.html" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Serviços <b class="caret"></b></a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu dropdown-menu-left">
                     <li><a href="javascript:void(0)">Incorporações</a></li>
                     <li><a href="javascript:void(0)">Eletrico-Hidráulica</a></li>
                 </ul>
@@ -55,8 +55,8 @@
         </header>
         <section>
             <div class="home--video hidden-xs">
-                <div class="video-logo text-center"> <h1>STC Engenharia</h1></div>
-                <div id="video-overlay"></div>
+                <div class="video-logo text-center"> <h1>STC</h1> <h2>Engenharia</h2></div>
+                <div class="video-overlay video-overlay--dark"></div>
                 <video src="/assets/videos/nair720o.mp4" autoplay="true" loop></video>
             </div>
         </section>
@@ -67,7 +67,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="slide-img img--servicos center-div ">
-                        <div id="video-overlay"></div>
+                        <div class="video-overlay"></div>
                             <a href="">
                                 <i class="mdi-action-work"></i> Serviços 
                             </a>
@@ -75,14 +75,14 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="slide-img img--clientes center-div ">
-                        <div id="video-overlay"></div>
+                        <div class="video-overlay"></div>
                             <a href="">
                                 <i class="mdi-social-people"></i> Clientes 
                             </a>
                         </div>
                     </div>
                     <div class="swiper-slide"><div class="slide-img img--office center-div ">
-                        <div id="video-overlay"></div>
+                        <div class="video-overlay"></div>
                             <a href="">
                                 <i class="mdi-communication-call"></i> Contato 
                             </a>
@@ -99,6 +99,29 @@
 
         </section>
         <footer>
+            <section id="mainFooter">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="footerWidget text-center">
+					<h1 class="bigTitle text-center">(31) 99999-0000</h1> 
+					<address class="text-center">
+						Rua dos Testes 444 - Bairro Planalto
+					</address> 
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="footerRights">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<a class="footer-email" href="mailto:stc.engenharia@gmail.com" target="blank">stc.engenharia@gmail.com</a>
+			</div>
+		</div>
+	</div>
+</section>
         </footer>
     </body>
 
