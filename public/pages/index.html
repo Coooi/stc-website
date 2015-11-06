@@ -12,6 +12,7 @@
     <title>STC Engenharia</title>
 
     <link href="/assets/css/stc.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/assets/images/stc-logo.jpg">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 </head>
@@ -30,7 +31,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="javascript:void(0)">STC</a>
+        <a class="navbar-brand" href="javascript:void(0)"><img src="/assets/images/stc-logo.jpg" class="logo" alt="" width="56px" height="56px"></a>
     </div>
     <div class="navbar-collapse collapse navbar-inverse-collapse">
         <ul class="nav navbar-nav">
@@ -40,12 +41,7 @@
                 <a href="bootstrap-elements.html" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Serviços <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li><a href="javascript:void(0)">Incorporações</a></li>
-                    <li><a href="javascript:void(0)">Another action</a></li>
-                    <li><a href="javascript:void(0)">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Dropdown header</li>
-                    <li><a href="javascript:void(0)">Separated link</a></li>
-                    <li><a href="javascript:void(0)">One more separated link</a></li>
+                    <li><a href="javascript:void(0)">Eletrico-Hidráulica</a></li>
                 </ul>
             </li>
             <li><a href="javascript:void(0)">Clientes</a></li>
@@ -58,10 +54,10 @@
 
         </header>
         <section>
-            <div class="center-div home--video hidden-xs">
-                <div class="video-logo"> <h1>STC Engenharia</h1></div>
+            <div class="home--video hidden-xs">
+                <div class="video-logo text-center"> <h1>STC Engenharia</h1></div>
                 <div id="video-overlay"></div>
-                <video src="/assets/videos/nair720.mp4" autoplay="true" loop></video>
+                <video src="/assets/videos/nair720o.mp4" autoplay="true" loop></video>
             </div>
         </section>
         <section>
@@ -69,15 +65,31 @@
             <!-- Swiper -->
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">
+                        <div class="slide-img img--servicos center-div ">
+                        <div id="video-overlay"></div>
+                            <a href="">
+                                <i class="mdi-action-work"></i> Serviços 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-img img--clientes center-div ">
+                        <div id="video-overlay"></div>
+                            <a href="">
+                                <i class="mdi-social-people"></i> Clientes 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"><div class="slide-img img--office center-div ">
+                        <div id="video-overlay"></div>
+                            <a href="">
+                                <i class="mdi-communication-call"></i> Contato 
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
-                <!-- Add Arrows -->
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
             </div>
