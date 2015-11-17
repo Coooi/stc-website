@@ -17,7 +17,8 @@ var vendorScripts = [
   'bower_components/bootstrap-material-design/dist/js/ripples.min.js',
   'bower_components/flexslider/jquery.flexslider-min.js',
   'bower_components/imagesloaded/imagesloaded.pkgd.min.js',
-  'bower_components/Swiper/dist/js/swiper.min.js'
+  'bower_components/Swiper/dist/js/swiper.min.js',
+  'bower_components/freewall/freewall.js'
 ];
 
 gulp.task('concat-vendor', function() {

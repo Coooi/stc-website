@@ -20,11 +20,7 @@
     <body> 
         <!-- Header --> 
         <header> 
-            <!-- JS -->
-<script src="/assets/js/vendor.min.js"></script>
-<script src="/assets/js/stc.min.js"></script>
-
-<div class="navbar shadow-z-2 navbar--stc">
+            <div class="navbar shadow-z-2 navbar--stc">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
             <span class="icon-bar"></span>
@@ -44,7 +40,7 @@
                     <li><a href="javascript:void(0)">Eletrico-Hidráulica</a></li>
                 </ul>
             </li>
-            <li><a href="javascript:void(0)">Clientes</a></li>
+            <li><a href="/clientes">Clientes</a></li>
             <li><a href="javascript:void(0)">Contato</a></li>
         </ul>
     </div>
@@ -67,23 +63,23 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="slide-img img--servicos center-div ">
-                        <div class="video-overlay"></div>
-                            <a href="">
+                        <!-- <div class="video-overlay"></div> -->
+                            <a href="/servicos">
                                 <i class="mdi-action-work"></i> Serviços 
                             </a>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="slide-img img--clientes center-div ">
-                        <div class="video-overlay"></div>
-                            <a href="">
+                        <!-- <div class="video-overlay"></div> -->
+                            <a href="/clientes">
                                 <i class="mdi-social-people"></i> Clientes 
                             </a>
                         </div>
                     </div>
                     <div class="swiper-slide"><div class="slide-img img--office center-div ">
-                        <div class="video-overlay"></div>
-                            <a href="">
+                        <!-- <div class="video-overlay"></div> -->
+                            <a href="/contato">
                                 <i class="mdi-communication-call"></i> Contato 
                             </a>
                         </div>
@@ -99,29 +95,35 @@
 
         </section>
         <footer>
-            <section id="mainFooter">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<div class="footerWidget text-center">
-					<h1 class="bigTitle text-center">(31) 99999-0000</h1> 
-					<address class="text-center">
-						Rua dos Testes 444 - Bairro Planalto
-					</address> 
+            <div class="footer">
+	<section id="mainFooter">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="footerWidget text-center">
+						<h1 class="bigTitle text-center">(31) 99999-0000</h1> 
+						<address class="text-center">
+							Rua dos Testes 444 - Bairro Planalto
+						</address> 
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
-<section id="footerRights">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<a class="footer-email" href="mailto:stc.engenharia@gmail.com" target="blank">stc.engenharia@gmail.com</a>
+	</section>
+	<section id="footerRights">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<a class="footer-email" href="mailto:stc.engenharia@gmail.com" target="blank">stc.engenharia@gmail.com</a>
+				</div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
+</div>
+
+<!-- JS -->
+<script src="/assets/js/vendor.min.js"></script>
+<script src="/assets/js/stc.min.js"></script>
         </footer>
     </body>
 

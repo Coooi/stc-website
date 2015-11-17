@@ -10,7 +10,7 @@ $(document).ready(function(){
         speed: 1000,
         autoplay: 5000,
         autoplayDisableOnInteraction: false
-    });
+    }); 
     $('.video-overlay--dark').click(function() {
         var video = $('#stc-video');
         video.get(0).paused ? video.get(0).play() : video.get(0).pause();
